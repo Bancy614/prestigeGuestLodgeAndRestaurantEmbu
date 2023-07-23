@@ -1,0 +1,112 @@
+html {
+  border: 2px solid #efefef;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgba(224, 104, 6, 0.562);
+}
+p,
+h1,
+h2 {
+  text-align: center;
+}
+.header {
+  list-style: none;
+  background: linear-gradient(
+    90deg,
+    rgb(210, 93, 19) 0%,
+    rgb(139, 102, 241) 100%
+  );
+  line-height: 30px;
+  margin: 0 auto;
+  width: 100%;
+}
+.header li {
+  padding: 0;
+  display: inline-block;
+  margin-right: 50px;
+  font-size: 20px;
+  transition: all 200ms ease-in-out;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #efefef;
+}
+a:hover {
+  background-color: rgba(224, 104, 6, 0.562);
+}
+.btn {
+  background: linear-gradient(
+    90deg,
+    rgb(210, 93, 19) 0%,
+    rgb(139, 102, 241) 100%
+  );
+}
+.welcomePage {
+  font-weight: 900;
+  color: #662eed;
+}
+button {
+  background-color: #662eed;
+  color: #efefef;
+  cursor: pointer;
+  border: 0.5px solid #efefef;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+button:hover {
+  background-color: rgba(224, 104, 6, 0.562);
+  box-shadow: 10px 10px 20px rgba(178, 132, 132, 0.2);
+  color: black;
+}
+.btn {
+  background-color: #693348;
+}
+img {
+  background: linear-gradient();
+}
+
+.exterior {
+  display: block;
+  margin: 0 auto;
+}
+.innerPhotos {
+  margin-left: 85px;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+#amenities {
+  color: #662eed;
+}
+.subHeading {
+  line-height: 20px;
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+/* .coder {
+  font-style: italic;
+  opacity: 0.6;
+} */
+.tooltiptext {
+  line-height: 2px;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
